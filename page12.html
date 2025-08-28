@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Pseudo Element Selector */
+        /* การเอา s ที่เราเรียนทั้ง9 แบบมาใช้ได้หมด */
+        span ::before{
+            content: "Hello ";
+        }
+        span ::after{
+            /* content: url('./images/03.png'); */
+            content: 'bye..';
+        }
+        p::first-letter{
+            font-size: 50px;
+        }
+        p::first-line{
+            font-weight: bold;
+        }
+        p::before{
+            content: 'SAU';
+        }
+    </style>
+</head>
+<body>
+    <span id="aa">this is a book</span>
+    <br>
+    <span id="bb">wow wow wow</span>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse beatae, consequatur nulla magnam doloribus eos dolorem, corrupti deserunt quibusdam qui eum? Ipsum nulla eos asperiores dicta, est sit numquam, vel reiciendis assumenda ab placeat quaerat excepturi. Numquam, autem eos qui ipsa praesentium incidunt inventore harum tempora. Praesentium provident aliquid inventore!
+    </p>
+</body>
+</html>

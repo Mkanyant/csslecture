@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Pseudo class Selector */
+        span:hover{
+            color: red;
+            font-size: 50px;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+            font-weight: bold;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <span>
+        wow wow Wow
+    </span>
+    <br>
+    <a href="https://www.sau.ac.th"></a>
+</body>
+</html>
