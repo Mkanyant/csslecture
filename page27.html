@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 200px 250px 250px 250px;
+            grid-template-rows: 70px 200px 250px 180px;
+            grid-template-areas: 
+                "itim-1 itim-1 itim-1 itim-1"
+                "itim-2 itim-3 itim-3 itim-3"
+                "itim-2 itim-4 itim-5 itim-6"
+                "itim-2 itim-7 itim-7 itim-7"
+            ;
+            gap: 5px;
+        }
+        #itim-1{
+            grid-area: itim-1;
+        }
+        #itim-2{
+            grid-area: itim-2;
+        }
+        #itim-3{
+            grid-area: itim-3;
+        }
+        #itim-4{
+            grid-area: itim-4;
+        }
+        #itim-5{
+            grid-area: itim-5;
+        }
+        #itim-6{
+            grid-area: itim-6;
+        }
+        #itim-7{
+            grid-area: itim-7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="IoT" id="itim-1" style="background-color: red;">AAA</div>
+        <div class="IoT" id="itim-2" style="background-color: rgb(255, 174, 0)">BBB</div>
+        <div class="IoT" id="itim-3" style="background-color: rgb(200, 255, 0)">CCC</div>
+        <div class="IoT" id="itim-4" style="background-color: rgb(0, 255, 136)">DDD</div>
+        <div class="IoT" id="itim-5" style="background-color: rgb(0, 183, 255)">EEE</div>
+        <div class="IoT" id="itim-6" style="background-color: rgb(0, 60, 255)">FFF</div>
+        <div class="IoT" id="itim-7" style="background-color: rgb(140, 0, 255)">GGG</div>
+    </div>
+</body>
+</html>
